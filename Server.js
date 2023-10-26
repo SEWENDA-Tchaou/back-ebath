@@ -101,7 +101,6 @@ app.post("/contact", (req, res) =>{
     })
 })
 
-
 // afficher les donnes de la table contacts
 app.get("/afficheContact", (req, res)=>{
     const sql = "SELECT * FROM contacts";
